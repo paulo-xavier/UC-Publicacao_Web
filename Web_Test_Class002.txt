@@ -1,0 +1,4 @@
+Static Code Analysis and Code Review
+
+Static Code Analysis - Pega o código e analisa ele sem rodar o código propriamento dito.
+

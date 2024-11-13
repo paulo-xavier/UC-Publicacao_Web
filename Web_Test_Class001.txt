@@ -30,7 +30,7 @@ Testes
 	- ???
 
 
-Moock = digo qual vai ser o comportamento do código em alguma parte. (Desconsiderando outras integrações como banco) 
+Mock = digo qual vai ser o comportamento do código em alguma parte. (Desconsiderando outras integrações como banco) 
 	- Neste teste vamos mockar o banco, porque não é importante para o código.
 	- O que é importa é o que sai dela. 
 	- Desconsideramos as integrações.
