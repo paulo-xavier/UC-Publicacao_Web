@@ -1,4 +1,24 @@
-Static Code Analysis and Code Review
+---- Static Code Analysis and Code Review
+
 
 Static Code Analysis - Pega o código e analisa ele sem rodar o código propriamento dito.
 
+
+--- Ciclo de desenvolvimento de software (SDLC - System Development Life Cycle)
+
+
+Static Analysis ou Static Code Analysis
+
+- Examina o código SEM EXECUTAR O PROGRAMA.
+- Pode ser automatizada ou manual 
+- Essa ferramenta é executada geralmente antes do Code Review.
+	- Ela irá analisar o código;
+
+- Linters = Programas que faze a análise de código estáticos;
+
+
+--------PARA PESQUISAR
+
+
+- https://slack.com/intl/pt-br/
+- Programa: pre-commit
