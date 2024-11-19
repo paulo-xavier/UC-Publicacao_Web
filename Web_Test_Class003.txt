@@ -1,0 +1,52 @@
+---- Static Code Analysis and Code Review
+
+
+FALSO POSITIVO = Quando você dia para a ferramenta ignorar o aviso. 
+
+
+ESLint 
+
+- npm i --save-dev eslint @eslint/js globals
+
+
+--save-dev  = Development dependencies. DependÊncias que não são levadas para o ambiente de 
+produção, pois só vai carregar e pesar sem ser utilizada, já que são usadas somente no 
+ambiente de desenvolvimento.
+
+
+
+COMMONJS = const axios - require('axios')
+
+
+MODULE = import axios from 'axios'
+
+-----------------------------------------------
+
+---- Dynamic Code Analysis
+
+- Análises onde o código é executado. Calulca performance, tempo de resposta, etc.
+- DataDog
+- New Relic (newrelic.com)
+
+
+
+
+CDN - Um servidor específico para fornecer arquivos estáticos.
+
+
+
+BROWSER --> API (BACKEND)
+
+- Latência = Tempo que leva para a informações ser carregada e processada. 
+
+
+
+THROUGHPUT - Quanto de requisições estou recebendo
+
+RATE LIMIT (Envoy) = Configura o quanto de requisições eu posso receber por instância.
+API GATEWAY (NGINX) = Um servidor web que direciona as requisiões para os servidores.
+
+
+
+
+

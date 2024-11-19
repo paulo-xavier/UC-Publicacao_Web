@@ -1,0 +1,34 @@
+---- Static Code Analysis and Code Review
+
+
+FALSO POSITIVO = Quando você dia para a ferramenta ignorar o aviso. 
+
+
+-----------------------------------------------
+
+---- Dynamic Code Analysis
+
+- Análises onde o código é executado. Calulca performance, tempo de resposta, etc.
+- DataDog
+- New Relic (newrelic.com)
+
+
+
+
+CDN - Um servidor específico para fornecer arquivos estáticos.
+
+
+
+BROWSER --> API (BACKEND)
+
+- Latência = Tempo que leva para a informações ser carregada e processada. 
+
+
+
+THROUGHPUT - Quanto de requisições estou recebendo
+
+RATE LIMIT (Envoy) = Configura o quanto de requisições eu posso receber por instância.
+API GATEWAY (NGINX) = Um servidor web que direciona as requisiões para os servidores.
+
+
+
