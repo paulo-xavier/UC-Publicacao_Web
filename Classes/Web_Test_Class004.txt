@@ -1,0 +1,36 @@
+------- Testes Unitários
+
+
+Pirâmide de Teste
+
+Unitário --> Integração --> End to end (Testa toda a aplicação - de fim a fim)
+ 
+
+ESLint = Analisador de código estático
+
+
+
+
+
+
+
+--- Teste Unitários
+
+- TEsta unidades individuais de código como funções e métodos.
+- Objetivo é garantir que cada componente funcione de forma isolada.
+
+
+FErramentas para teste unitário
+- Mocha
+- CHai
+Jest (Junção de Mocha e Chai)
+
+
+Teste xxxxx ``{
+    
+	assert(soma(2,2), 4);
+
+}   
+
+
+Jest - Switch/Runtime for test
