@@ -6,7 +6,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start1": "node ex1.js",
     "start2": "node ex1.js",
-    "lint" : "eslint ."
+    "lint" : "eslint .",
+    "lint:fix": "eslint . --fix"
+
   },
   "author": "Paulo Roberto Xavier da Silva",
   "license": "ISC",

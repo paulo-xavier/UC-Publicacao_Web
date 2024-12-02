@@ -1,32 +1,40 @@
 function teste(){
-  var a = 10
-  b = 20
-  c = a + b
+  var a = 10;
+  const b = 20;
+  const c = a + b;
 
   if(a == 10){
-    console.log( 'O valor de a é 10' )
+    // eslint-disable-next-line no-console
+    console.log("This is a debug message");
+
+
+    /* eslint-disable no-console */
+
+    console.log( 'O valor de a é 10' );
   }
 
   for(var i =0;i<10;i++){
-    console.log(i)
+    console.log(i);
   }
 
+  /* eslint-enable no-console */
+
   function interna(){
-    return
+    return;
     {
-      valor: 1
+      valor: 1;
     }
   }
 
-  var resultado = interna() ? true : false
+  var resultado = interna() ? true : false;
 
-  let obj = {a:1,b:2,
-    c:3}
+  const obj = {a:1,b:2,
+    c:3};
 
   if (resultado)
-    console.log('Resultado é verdadeiro')
+    console.log('Resultado é verdadeiro');
 
-  return c
+  return c;
 }
 
-teste()
+teste();
